@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing:border-box;
+}
+body {
+     margin: 0;
+	padding: 0;
+    background:black;
+}
+
+.left {
+  background-color:black;
+  padding-top:10px;
+  padding-left:5%;
+  float:left;
+  width:70%; /* The width is 20%, by default */
+  
+}
+
+
+.right {
+  
+  padding-top:200px;
+  padding-left:5%;
+  float:left;
+  width:30%; /* The width is 20%, by default */
+  height:100vh;
+}
+
+/* Use a media query to add a break point at 800px: */
+@media screen and (max-width:800px) {
+  .left, .main, .right {
+    width:100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
+
+h1{
+    font-family: serif;
+    transform: scaleY(calc(1/0.6));
+ 
+    color:white;
+    margin-bottom:40px;
+}
+
+h2{
+  font-family: serif;
+    transform: scaleY(calc(1/0.6));
+ 
+    color:white;
+    margin-bottom:25px;
+    margin-top:60px;
+}
+
+p{
+    color:white;
+    max-width: 600px;
+}
+
+
+
+.button{
+	font-family: serif;
+	background-color: black;
+	border: solid 1px ;
+	justify-content: left !important;
+	text-align: left !important;
+	cursor: pointer;
+	color: white;
+	font-size: 14px;
+	transform: scaleY(calc(1/0.6));
+    margin-bottom:40px;
+    margin-top:20px;
+}
+
+.rectangle {
+    margin:80px, 20px;
+  height: 400px;
+  width: 80%;
+  background-color: #555;
+}
+
+
+</style>
+</head>
+<body>
+
+
+<div class="left">
+    <button class="button">Back To Home <br> 返回主頁 </button>
+    <h1>Information</h1>
+  <p>How a weather satellite works: the orbiting satellite sends data to the ground in the form of electromagnetic signals. The ground staff then receives the signals via an antenna and translates the data into information that we can understand. The satellite's position influences its range of transmission, therefore, the data we receive and its availability depends on the satellite's location in its orbit.<br> As the satellite continues to move, the ground staff is only able to receive signals during certain times of the day. It is worth noting that the technology for coordinating and transmitting satellite data predates the Internet. For the satellite, its system, which was programmed several decades ago, only allows it to send signals in one direction. The satellite cannot receive any signals in return, nor can its operational system change. Meanwhile, the ground staff can simply set up an antenna on Earth, and using basic technology, they can decipher the signals without advanced machines. In essence, the method of transmitting and receiving satellite signals has not changed even with the advancement of technology.<br>Under the night sky, if one adjusts the antenna's direction on the ground, one can determine the satellite's location and coordinates by recognising the frequency of incoming electromagnetic signals. A communication process that appears so mechanical and monotonous strikes an emotional chord, seemingly echoing the sense of isolation and distance permeating the world in the era of COVID-19.
+   </p>
+   
+   <p>
+    氣象衛星的運作方式大致如下：首先，衛星依據特定程式以電磁訊號向地面發送數據，地面工作人員則通過天線接收訊號後將之分析成我們可以理解的資訊。衛星拍攝及發送的數據會因其所處的軌道位置而異。在這個過程中，由於衛星的位置與發送範圍不斷變化，地面工作人員只能在特定時間內接收到衛星發送的訊號。值得一提的是，衛星運作和工作人員均採用網路出現前的老舊技術接收訊號。衛星根據一套幾十年前編譯的系統，只按預設好的程式機械地單向發送訊號，不能接收，也不會有任何調整與變化；同時，接收人員也僅需架設天線，憑簡單技術便可以在與現今科技絕緣的情況下解讀訊號。可以說，衛星訊號的發送與接收還處於上世紀那種完全閉合的狀態。若在夜空下手動調整天線的方向，只需根據電磁訊號的頻率就能找到衛星的大概位置。如此單調的交流過程略帶感性色彩，似呼應了疫情發生後世界各地相互區隔的疏離感。
+  </p>
+
+  <h2> About </h2>
+
+  <p>
+    The Earth Is an Image is a web-based work created by artist and engineer Xin Liu exploring the orbital coverage of artificial satellites that are used for geo-imaging, weather forecasting, and related technologies. Proposing a post-anthropocentric view, Liu tunes into the minds of several satellites that have been abandoned in orbit at the end of their missions.
+
+An antenna installed in Hong Kong captures the radio signals of three retired satellites that pass over the city approximately four times a day. Despite becoming obsolete two decades ago, these satellites are still dutifully orbiting and transmitting data back to Earth. The satellites’ FM radio signals and climate images are converted into an audiovisual experience of rhythmic sounds, ethereal cloud-forms, and glitchy echoes that are live-streamed online. Alongside this digital composition, a dialogue unfolds between a satellite and someone on the ground, telling the story of orbiting metal bodies that are stranded eight hundred kilometres from Earth. When the satellites are outside the antenna’s reception zone, The Earth is an Image tracks their movements and displays their altitudes and coordinates.
+
+In a poetic enquiry into the lifespan of satellites, Liu not only examines advances in satellite broadcasting, but also provides an alternative experience of distance and space, illustrating the complex relationship between human and non-human life forms.
+
+  </p>
+
+   <p>
+    Team<br>
+    
+    Artist: Xin Liu<br>
+    
+    Visual Design: Yidong Cai<br>
+    
+    Website: Qianlin, Che-yu Wu, Power Nap Studio<br>
+    
+    Hardware: Gershon Dublon, slow immediate LLC<br>
+    
+    Project Assistant: Yuhan Song<br>
+    </p>
+</div>
+
+
+
+<div class="right">
+<div class = "rectangle"></div>
+  <p>sample video placeholder</p>
+
+</div>
+
+</body>
+</html>
+
